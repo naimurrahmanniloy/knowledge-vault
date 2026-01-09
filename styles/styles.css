@@ -233,7 +233,7 @@ header nav a:hover {
   width: 1360px;
   margin: 0 auto;
   text-align: center;
-  height: 384px;
+  height: 500px;
   padding-top: 150px;
 }
 .early-access-content > h1 {
@@ -250,4 +250,19 @@ header nav a:hover {
 }
 .early-access-btn {
   margin-top: 24px;
+}
+
+/* Footer section starts here  */
+footer {
+  margin-top: 120px;
+  background: rgba(0, 25, 49, 1);
+  height: 348px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 200px;
+  margin: 120px;
 }
