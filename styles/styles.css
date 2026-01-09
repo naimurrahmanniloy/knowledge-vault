@@ -71,7 +71,7 @@ header nav a:hover {
   margin-top: 10px;
 }
 .main-header {
-  background-image: url(/assets/hero-bg.png),
+  background-image: url(../assets/hero-bg.png),
     linear-gradient(
       90deg,
       rgba(0, 0, 0, 1) 0%,
