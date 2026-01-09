@@ -31,7 +31,35 @@ header nav {
 header nav li {
   list-style: none;
 }
-
+.access-entry {
+  background-color: white;
+  width: 250px;
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+.access-entry > p {
+  color: green;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+/* .access-point {
+  width: 20px;
+  height: 20px;
+  border-radius: 8px;
+  background: rgba(70, 145, 101, 1);
+  opacity: 0.4;
+} */
+#entry-point {
+  width: 20px;
+  height: 20px;
+  border-radius: 8px;
+  background: rgba(70, 145, 101, 1);
+  opacity: 0.4;
+}
 .menu ul {
   display: flex;
   margin-top: 20px;
@@ -83,7 +111,7 @@ header nav a:hover {
   text-transform: capitalize;
   color: white;
 }
-.header-content p {
+.header-content > p {
   text-align: center;
   margin-top: 16px;
   color: rgba(255, 255, 255, 1);
