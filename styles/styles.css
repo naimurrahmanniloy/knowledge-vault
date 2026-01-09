@@ -122,3 +122,60 @@ header nav a:hover {
   background-color: rgba(50, 120, 80, 1);
   transition: 0.6s ease;
 }
+/* card section starts  */
+.card-section {
+  margin-top: 60px;
+}
+.card-section h1 {
+  text-align: center;
+  font-weight: Bold;
+  font-size: 48px;
+  height: 58px;
+}
+.card-section > p {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgba(98, 115, 130, 1);
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  width: 322px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 44px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+.card img {
+  background: rgba(249, 85, 85, 1);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+}
+
+.card > h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 16px;
+}
+
+.card > p {
+  color: rgba(98, 115, 130, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 16px;
+}
